@@ -132,41 +132,41 @@
 //         .join('')
 // }
 
-// let counterValue = 0
-// const elements = {
-//     span: document.querySelector('#value'),
-//     increment: document.querySelector('#increment'),
-//     decrement: document.querySelector('#decrement')
-// }
+// // let counterValue = 0
+// // const elements = {
+// //     span: document.querySelector('#value'),
+// //     increment: document.querySelector('#increment'),
+// //     decrement: document.querySelector('#decrement')
+// // }
 
 
-// elements.increment.addEventListener('click', handlerCounter);
-// elements.decrement.addEventListener('click', handlerCounter);
+// // elements.increment.addEventListener('click', handlerCounter);
+// // elements.decrement.addEventListener('click', handlerCounter);
 
-// function handlerCounter(evt){
-//     elements.span.textContent = counterValue += evt.currentTarget.dataset.action === 'increment' ? 1 : -1
-// }
+// // function handlerCounter(evt){
+// //     elements.span.textContent = counterValue += evt.currentTarget.dataset.action === 'increment' ? 1 : -1
+// // }
 
 
-// const refs = {
-//     buttonDecrement: document.querySelector('button[data-action= "decrement"]'),
-//     buttonIncrement: document.querySelector('button[data-action= "increment"]'),
-//     counter: document.querySelector('#value'),
-//   };
-//   let counterValue = 0;
-//   const { buttonDecrement, buttonIncrement, counter } = refs;
+// // const refs = {
+// //     buttonDecrement: document.querySelector('button[data-action= "decrement"]'),
+// //     buttonIncrement: document.querySelector('button[data-action= "increment"]'),
+// //     counter: document.querySelector('#value'),
+// //   };
+// //   let counterValue = 0;
+// //   const { buttonDecrement, buttonIncrement, counter } = refs;
 
-//   buttonDecrement.addEventListener('click', onClick('decrement'));
-//   buttonIncrement.addEventListener('click', onClick('increment'));
+// //   buttonDecrement.addEventListener('click', onClick('decrement'));
+// //   buttonIncrement.addEventListener('click', onClick('increment'));
 
-//   function onClick(direction) {
-//     return () => {
-//       if (direction === 'decrement')
-//         counter.textContent = `${(counterValue -= 1)}`;
-//       if (direction === 'increment')
-//         counter.textContent = `${(counterValue += 1)}`;
-//     };
-//   }
+// //   function onClick(direction) {
+// //     return () => {
+// //       if (direction === 'decrement')
+// //         counter.textContent = `${(counterValue -= 1)}`;
+// //       if (direction === 'increment')
+// //         counter.textContent = `${(counterValue += 1)}`;
+// //     };
+// //   }
 
 const cars = [
     {
